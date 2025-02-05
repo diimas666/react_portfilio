@@ -1,21 +1,61 @@
 /* Header */
 
 .header {
+  position: relative;
   padding: 40px 0;
   min-height: 695px;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: var(--header-bg);
-  background-image: url('../../img/header-bg.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center center;
 
   color: var(--header-text);
   text-align: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.header::after,
+.header::before {
+  content: '';
+  background-image: url('../../img/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  z-index: 1;
+}
+
+.header::after {
+  animation: header-bg-rotate 6s linear infinite;
+}
+
+.header::before {
+  animation: header-bg-rotate-reverse 6s linear infinite;
+}
+
+@keyframes header-bg-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes header-bg-rotate-reverse {
+  0% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-180deg);
+  }
 }
 
 .header__wrapper {

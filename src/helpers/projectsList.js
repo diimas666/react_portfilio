@@ -71,5 +71,22 @@ const projects = [
         imgBig: project06Big,
         gitHubLink: 'https://github.com'
     },
+
+    {
+        id: 'Landing',
+        title: 'Landing',
+        skills: 'React, Node.js, MongoDB',
+        img: project05,
+        imgBig: project05Big,
+        gitHubLink: 'https://github.com'
+    },
+    {
+        id: 'Gaming community',
+        title: 'Gaming community',
+        skills: 'React, Node.js, MongoDB',
+        img: project06,
+        imgBig: project06Big,
+        gitHubLink: 'https://github.com'
+    },
 ]
 export {projects};
