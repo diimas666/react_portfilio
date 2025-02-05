@@ -1,6 +1,6 @@
 import './styles/main.css';
 import {
-  HashRouter as Router, // Заменил BrowserRouter на HashRouter
+  BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -21,7 +21,7 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/" element={<Navigate to="/home" />} />{' '}
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<Project />} />
@@ -34,3 +34,4 @@ function App() {
 }
 
 export default App;
+
