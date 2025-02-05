@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfilio/static/css/main.0b9c2c1e.css",
-    "main.js": "/react_portfilio/static/js/main.70fcc8eb.js",
+    "main.css": "/react_portfilio/static/css/main.9753cd62.css",
+    "main.js": "/react_portfilio/static/js/main.bb16b614.js",
     "static/media/04-big.jpg": "/react_portfilio/static/media/04-big.9dc8caf822c4a4116af4.jpg",
     "static/media/01-big.jpg": "/react_portfilio/static/media/01-big.ecb03349664096d93b17.jpg",
     "static/media/03-big.jpg": "/react_portfilio/static/media/03-big.42d4e6c6843189e73fd2.jpg",
@@ -23,11 +23,11 @@
     "static/media/twitter.svg": "/react_portfilio/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
     "static/media/linkedIn.svg": "/react_portfilio/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/react_portfilio/index.html",
-    "main.0b9c2c1e.css.map": "/react_portfilio/static/css/main.0b9c2c1e.css.map",
-    "main.70fcc8eb.js.map": "/react_portfilio/static/js/main.70fcc8eb.js.map"
+    "main.9753cd62.css.map": "/react_portfilio/static/css/main.9753cd62.css.map",
+    "main.bb16b614.js.map": "/react_portfilio/static/js/main.bb16b614.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b9c2c1e.css",
-    "static/js/main.70fcc8eb.js"
+    "static/css/main.9753cd62.css",
+    "static/js/main.bb16b614.js"
   ]
 }
